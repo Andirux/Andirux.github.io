@@ -2,7 +2,8 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #8C4A7B
+  ;
 }
 
 .navbar-collapse {
@@ -26,12 +27,12 @@ h1 {
 
 .seccion-oscura {
   color: white;
-  background-color: #1b1b32;
+  background-color: #364F59;
 }
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  background-color: #F2DAD8;
 }
 
 .seccion-titulo {
@@ -65,7 +66,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: #CBC1D9;
   min-height: 450px;
   text-align: center;
 }
@@ -75,8 +76,8 @@ h1 {
 }
 
 .hero-imagen-desarrollador {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 300px;
   margin: 20px;
 }
 
@@ -115,12 +116,12 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #A67CA3;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
+  color: #8C4A7B;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -160,6 +161,12 @@ h1 {
 .proyectos-contenedor {
   padding-top: 60px;
   margin-bottom: 40px;
+}
+
+.img1{
+  height: 210px;
+  width: 210px;
+  left: 60px;
 }
 
 .overlay {
@@ -281,7 +288,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #8C4A7B;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -363,7 +370,7 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  border: 2px solid #8C4A7B;
 }
 
 .iconos-redes-sociales a:hover i {
