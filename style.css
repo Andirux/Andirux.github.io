@@ -1,9 +1,12 @@
 /* Barra de navegacion */
 
 .navbar {
-  padding: 2rem;
-  background-color: #8C4A7B
-  ;
+  padding: 1rem;
+  background: #2EDCC9;
+}
+
+.navbar a {
+  color: #364F59;
 }
 
 .navbar-collapse {
@@ -12,6 +15,14 @@
 }
 
 /* Estilos generales */
+
+*::selection {
+  background: #CCF2B9;
+}
+
+span.Typewriter__wrapper, .Typewriter__cursor {
+  color: #30283f;
+}
 
 section {
   display: flex;
@@ -23,6 +34,7 @@ section {
 h1 {
   font-size: 2.5rem;
   font-family: 'Rubik Dirt', cursive;
+  color: #444444;
 }
 
 .seccion-oscura {
@@ -32,7 +44,7 @@ h1 {
 
 .seccion-clara {
   color: black;
-  background-color: #F2DAD8;
+  background-color: #aeaeae;
 }
 
 .seccion-titulo {
@@ -66,7 +78,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #CBC1D9;
+  background: linear-gradient(#2EDCC9, #BEF5C7);
   min-height: 450px;
   text-align: center;
 }
@@ -91,6 +103,7 @@ h1 {
 .sobre-mi {
   height: 500px;
   padding: 10px;
+  background: linear-gradient(#BEF5C7, #AF9AFD);
 }
 
 .sobre-mi .contenedor {
@@ -98,10 +111,24 @@ h1 {
   text-align: center;
 }
 
+.sobre-mi a {
+  text-decoration: none;
+  padding: 15px 20px;
+  background-color: #665786;
+  border-radius: 5px;
+  background-color: #2EDCC9;
+  color: black;
+}
+
+.sobre-mi a:hover {
+  background-color: #665786;
+  color: white;
+}
+
 /* Experiencia */
 
 .experiencia {
-  padding: 40px 40px 60px 40px;
+  background: linear-gradient(#AF9AFD, #9983C9);
 }
 
 .experiencia .columna {
@@ -116,12 +143,12 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #A67CA3;
+  background-color: #665786;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #8C4A7B;
+  color: #665786;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -137,36 +164,41 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
+  
 }
 
 .badge {
   margin: 5px;
+  color: black !important;
 }
+
+.text-bg-primary {
+  background-color: #2EDCC9 !important;
+}
+
 
 /* Proyectos */
 
 .proyectos-recientes {
   padding: 40px;
+  background: linear-gradient(#AC97F5, #55E9FF, #2EDCC9);
 }
 
 .proyectos-recientes img {
-  height: 100%;
-  width: 100%;
+  width: 200px;
   padding: 10px;
   border-radius: 10px;
   display: block;
   transition: all 0.2s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .proyectos-contenedor {
   padding-top: 60px;
   margin-bottom: 40px;
-}
-
-.img1{
-  height: 210px;
-  width: 210px;
-  left: 60px;
+  text-align: center !important;
 }
 
 .overlay {
@@ -202,12 +234,12 @@ h1 {
 }
 
 .overlay i {
-  color: black;
+  color: white;
   font-size: 60px;
   margin: 10px;
 }
 
-/* Articulos */
+/* Articulos 
 
 .articulos {
   min-height: 500px;
@@ -222,9 +254,9 @@ h1 {
 
 .articulos .card-header {
   font-weight: bold;
-}
+} */
 
-/* Testimonios */
+/* Testimonios 
 
 .testimonios {
   padding: 40px 40px 80px 40px;
@@ -276,19 +308,18 @@ h1 {
 .testimonio-info .cargo {
   font-size: 0.9rem;
   color: #656060;
-}
+} */
 
 /* Contacto */
 
 .contacto .container {
   max-width: 1100px;
   min-height: 200px;
-  padding: 20px;
 }
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #8C4A7B;
+  background-color: #665786;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -316,36 +347,35 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
-  color: black;
+  background-color: #2EDCC9;
 }
 
 .contacto button i {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   transition: all 0.2s ease-in-out;
+  padding: 10px 15px;
+  
 }
 
 .contacto button:hover i {
-  color: black;
+  color: #CCF2B9;
 }
 
 /* Pie de pagina (footer) */
 
 footer {
-  min-height: 500px;
+  min-height: 100px;
 }
 
 .footer-logo {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   margin: 10px;
 }
 
 .footer-texto {
   font-size: 1.5rem;
-  padding: 20px;
-  margin-bottom: 30px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -363,24 +393,22 @@ footer {
 }
 
 .iconos-redes-sociales i {
-  color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
   transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid #8C4A7B;
+  border: 2px solid #7DEFD7;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: #7DEFD7;
 }
 
 .derechos-de-autor {
   font-size: 15px;
   color: #aeaeae;
-  padding: 20px;
 }
 
 /* Adaptable (Responsivo) */
