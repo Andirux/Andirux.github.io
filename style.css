@@ -83,9 +83,6 @@ h1 {
   text-align: center;
 }
 
-.hero-principal {
-  padding: 3rem;
-}
 
 .hero-imagen-desarrollador {
   width: 220px;
@@ -101,7 +98,7 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-  height: 500px;
+  min-height: 600px;
   padding: 10px;
   background: linear-gradient(#BEF5C7, #AF9AFD);
 }
@@ -117,12 +114,12 @@ h1 {
   background-color: #665786;
   border-radius: 5px;
   background-color: #2EDCC9;
-  color: black;
+  color: #30283f;
 }
 
 .sobre-mi a:hover {
-  background-color: #665786;
-  color: white;
+  background-color: #30283f;
+  color: #2EDCC9;
 }
 
 /* Experiencia */
@@ -148,8 +145,8 @@ h1 {
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #665786;
-  background-color: #0a0a23;
+  color: #30283f;
+  background-color: #7DEFD7;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -181,7 +178,7 @@ h1 {
 
 .proyectos-recientes {
   padding: 40px;
-  background: linear-gradient(#AC97F5, #55E9FF, #2EDCC9);
+  background: linear-gradient(#AA95F0, #55E9FF, #2EDCC9);
 }
 
 .proyectos-recientes img {
@@ -190,7 +187,6 @@ h1 {
   border-radius: 10px;
   display: block;
   transition: all 0.2s ease;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -234,7 +230,7 @@ h1 {
 }
 
 .overlay i {
-  color: white;
+  color: #30283f;
   font-size: 60px;
   margin: 10px;
 }
@@ -315,6 +311,7 @@ h1 {
 .contacto .container {
   max-width: 1100px;
   min-height: 200px;
+  padding-bottom: 1rem;
 }
 
 .contacto .rectangulo {
@@ -348,10 +345,11 @@ h1 {
 
 .contacto button:hover {
   background-color: #2EDCC9;
+  color: black;
 }
 
 .contacto button i {
-  color: white;
+  color: #30283f;
   font-size: 1.5rem;
   transition: all 0.2s ease-in-out;
   padding: 10px 15px;
@@ -359,7 +357,8 @@ h1 {
 }
 
 .contacto button:hover i {
-  color: #CCF2B9;
+  color: #2EDCC9;
+  background-color: #30283f;
 }
 
 /* Pie de pagina (footer) */
@@ -375,7 +374,6 @@ footer {
 }
 
 .footer-texto {
-  font-size: 1.5rem;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -397,13 +395,11 @@ footer {
   transition: all 0.2s ease-in;
 }
 
-.iconos-redes-sociales a:hover {
-  background-color: white;
-  border: 2px solid #7DEFD7;
-}
+
 
 .iconos-redes-sociales a:hover i {
   color: #7DEFD7;
+  background-color: #30283f;
 }
 
 .derechos-de-autor {
@@ -445,3 +441,4 @@ footer {
     max-width: 600px;
   }
 }
+
