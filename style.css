@@ -229,6 +229,11 @@ h1 {
   display: flex;
 }
 
+div .lap {
+  align-items: center;
+  justify-content: center;
+}
+
 .overlay i {
   color: #30283f;
   font-size: 60px;
